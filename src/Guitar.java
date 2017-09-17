@@ -1,9 +1,34 @@
+/**
+* Professor: 	Orlando Montalvo
+* Class: 		Object Oriented Analysis & Design CSC7400
+* @author 		Mohamed Fadili
+* @version 		1.0
+* @since   		09-11-2017
+*/
+
+/**
+ * this class contains the guitar attributes
+ * @author Ash
+ *
+ */
 public class Guitar {
 
   private String serialNumber, builder, model, type, backWood, topWood;
   private double price;
 
-  public Guitar(String serialNumber, double price,
+ /**
+ * 
+ * Creates new Guitar
+ * 
+ * @param serialNumber
+ * @param price
+ * @param builder
+ * @param model
+ * @param type
+ * @param backWood
+ * @param topWood
+ */
+public Guitar(String serialNumber, double price,
                 String builder, String model, String type,
                 String backWood, String topWood) {
     this.serialNumber = serialNumber;
@@ -15,29 +40,55 @@ public class Guitar {
     this.topWood = topWood;
   }
 
-  public String getSerialNumber() {
+  /**
+ * @return serialNumber
+ */
+public String getSerialNumber() {
     return serialNumber;
   }
 
-  public double getPrice() {
+  /**
+ * @return price
+ */
+public double getPrice() {
     return price;
   }
-  public void setPrice(float newPrice) {
+  /**
+ * @param newPrice
+ */
+public void setPrice(float newPrice) {
     this.price = newPrice;
   }
-  public String getBuilder() {
+  /**
+ * @return builder
+ */
+public String getBuilder() {
     return builder;
   }
-  public String getModel() {
+  /**
+ * @return model
+ */
+public String getModel() {
     return model;
   }
-  public String getType() {
+  /**
+ * @return type
+ */
+public String getType() {
     return type;
   }
-  public String getBackWood() {
+  /**
+ * @return backWood
+ */
+public String getBackWood() {
     return backWood;
   }
-  public String getTopWood() {
+  
+  /**
+ * @return topWood
+ */
+public String getTopWood() {
+	  
     return topWood;
   }
 }
