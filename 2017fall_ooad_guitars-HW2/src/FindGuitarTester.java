@@ -2,7 +2,7 @@
 * Professor: 	Orlando Montalvo
 * Class: 		Object Oriented Analysis & Design CSC7400
 * @author 		Mohamed Fadili
-* @version 		1.0
+* @version 		2.0
 * @since   		09-11-2017
 */
 
